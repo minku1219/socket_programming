@@ -13,7 +13,7 @@ except socket.error as err:
 port = 80
 
 try:
-	host_ip = socket.gethostbyname('www.google.com')
+	host_ip = socket.gethostbyname('www.youtube.com')
 except socket.gaierror:
 
 	# this means could not resolve the host
@@ -23,4 +23,4 @@ except socket.gaierror:
 # connecting to the server
 s.connect((host_ip, port))
 
-print ("the socket has successfully connected to google")
+print ("the socket has successfully connected to youtube")
