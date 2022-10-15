@@ -11,3 +11,4 @@ converted_msg=msg.encode('ascii')
 s.sendto(converted_msg,recv_add)
 
 print("Your Message has been sent")
+// element.style.display = "none";
